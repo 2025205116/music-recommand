@@ -19,7 +19,7 @@ st.markdown("---")
 
 if st.button("🎵 내 취향 분석 및 2곡 추천받기", use_container_width=True):
 
-    BACKEND_URL = "http://34.204.68.3:8000/recommend"
+    BACKEND_URL = "http://music_backend:8000/recommend"
     
     payload = {
         "focus": focus,
